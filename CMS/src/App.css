@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Bodoni+Moda+SC:opsz,wght@6..96,400..900&family=Bokor&family=Dancing+Script:wght@400..700&display=swap family=Allura&family=Pinyon+Script&display=swap&family=Orbitron&display=swa');
+
+
+
+#id1{
+    font-family: serif;
+    font-weight: 500;
+}
+
+#id2{
+    font-family: serif;
+    font-weight: 500;
+}
+
+#text1{
+    font-family: serif;
+    font-weight: 400;
+}
+
+#text2{
+    font-family: serif;
+    font-weight: 500;
+ }
+
+ #mainText{
+    font-family: "Bokor", system-ui;
+    font-weight: 400;
+    font-style: normal;
+ }
+
+ #texthelper{
+    font-family: "Bodoni Moda SC", serif;
+}
+
+#texthelper2{
+    font-family: "Dancing Script", cursive;
+    font-weight: 200;
+    font-size: larger;
+}
+
+#texet4{
+    font-family: "Bodoni Moda SC", serif;
+    font-weight: semibold;
+}
+
+#texet3{
+    font-family: "Bodoni Moda SC", serif;
+    font-weight: 400;
+}
+
+#textbutton{
+    font-family: "Bodoni Moda SC", serif;
+    font-weight: 100;
+    border-radius: 3rem;
+}
+
+
+#Titlepage1{
+  font-family: "Pinyon Script", cursive;
+  font-weight: bold;
+}
+ 
+
+#TableHeader{
+  font-family: "Bodoni Moda SC", serif;
+  font-weight: 200;
+  font-size: medium;
+}
+
+#recomended{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
