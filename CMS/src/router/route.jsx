@@ -38,6 +38,27 @@ const router = createBrowserRouter([
 
   {
     element: <BaseLayout />,
+    loader: () => {
+      if (!localStorage.access_token) {
+        Toastify({
+          text: "You should login first",
+          duration: 2000,
+          newWindow: true,
+          close: true,
+          gravity: "top",
+          position: "left",
+          stopOnFocus: true,
+          style: {
+            background: "#EF4C54",
+            color: "#17202A",
+            boxShadow: "0 5px 10px black",
+            fontWeight: "bold",
+          },
+        }).showToast();
+        return redirect("/login");
+      }
+      return null;
+    },
     children: [
       {
         path: "/",
